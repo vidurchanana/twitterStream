@@ -19,6 +19,7 @@ object PopularHashtags {
   }
   
   /** Configures Twitter service credentials using twiter.txt in the main workspace directory */
+  //You'll have to create a Twitter Developer account and then access the API Keys 
   //Setup Server for Twitter
   def setupTwitter() = {
     import scala.io.Source
